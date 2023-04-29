@@ -4,8 +4,6 @@
 .link {
   text-decoration: none;
 }
-.e-mail {
-}
 button {
   cursor: pointer;
 }
@@ -25,7 +23,7 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
-.contact-info:hover,
+/*.contact-info:hover,
 .contact-info:focus {
   color: #404bbf;
   text-decoration: underline;
@@ -56,15 +54,28 @@ body {
   letter-spacing: 0.02em;
   color: var(--maim-color-text);
 }
-.contacts-info {
+.contact-menu-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--color-text-contact);
 }
+.contact-menu-item:hover,
+.contact-menu-item:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+/*.contacts-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--color-text-contact);
+} */
 /*Hero*/
 .order-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
